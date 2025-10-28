@@ -1,0 +1,7 @@
+try:
+ x=56/0
+except:
+  print("division error not dvisible by zero")
+
+finally:
+   print("correct")
