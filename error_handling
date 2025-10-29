@@ -18,7 +18,7 @@ except Exception as e:
 finally :
    print("all well")
 '''
-
+'''
 try :
     result =10/int (input("enter the value:"))
     print(result)
@@ -27,3 +27,18 @@ except Exception as e:
 
 finally:
     print("program finished")
+
+'''
+
+#question : Write a program to take two numbers as input and divide them.
+
+#
+'''try :
+    num1 = int(input("enter the number "))
+    num2 = int(input("enter the secind number"))
+    result = num1/num2
+    print(result)
+except Exception as e:
+         print("error",e)
+finally:
+       print("program ended")'''
