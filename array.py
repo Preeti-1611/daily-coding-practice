@@ -37,4 +37,3 @@ print(a1.index(4))
 
 a1.remove(2)
 print(a1)
-
