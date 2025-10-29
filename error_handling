@@ -1,7 +1,29 @@
-try:
+#error handling
+#try except finally
+
+'''try:
  x=56/0
 except:
   print("division error not dvisible by zero")
 
 finally:
-   print("correct")
+   print("correct")'''
+
+'''
+try:
+   k = int(input("enter the number"))
+   print(1/k)           
+except Exception as e:
+   print("error:",e)
+finally :
+   print("all well")
+'''
+
+try :
+    result =10/int (input("enter the value:"))
+    print(result)
+except Exception as e:
+    print("Invalid Input :",e)
+
+finally:
+    print("program finished")
