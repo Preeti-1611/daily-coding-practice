@@ -72,3 +72,12 @@ print("y:", y)      # [10 20 30]  (copy stays same)
 | How to check if an array owns its data?                     | `arr.base is None` → means it owns the data (not a view).    |
 | Which uses less memory?                                     | `view()`                                                     |
 '''
+
+a1 =np.array([1,2,3,4,5])
+for i in a1:
+     print(i+5)
+# adding 5 to the arrary
+a1 = a1+5
+print(a1)
+
+
