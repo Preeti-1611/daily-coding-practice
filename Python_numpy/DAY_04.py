@@ -58,7 +58,7 @@ print(arr1.size)
 # print(arr2)
 # print(arr2.ndim)
 
-
+'''
 h1 = array([
     [1,2,3,4,5,6],
     [7,8,9,10,11,12]
@@ -103,3 +103,32 @@ print("\nReshaped 3D Array:")
 print(new_arr)
 
 
+'''
+#matrix
+'''arr1= array([
+    [1,2,3],
+    [4,5,6]
+])'''
+''''m = matrix(arr1)
+print(m)
+print(type(m))
+print(m.dtype)
+'''
+m = matrix('1 2 3 ;4 5 6')
+print(m)
+print(m.ndim)
+print(m.shape)
+
+m1= matrix('2 3 4; 4 5 6; 4 7 5')
+print(m1)
+print(m1.ndim)
+print(m1.shape)
+#want to print diagonal elemnts
+print(diagonal(m1))
+print(m1.diagonal())
+#min max
+print(m1.min())
+print(m1.max())
+
+m3 = m*m1;
+print(m3)
