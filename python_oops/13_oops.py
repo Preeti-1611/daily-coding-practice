@@ -10,8 +10,10 @@ class Cat:
 d1 = Dog()
 c1= Cat()
 
-for a in (d1,c1):
-    a.sound()
+# for a in (d1,c1):
+#     a.sound()
+
+print(d1.sound())
 
 
 
